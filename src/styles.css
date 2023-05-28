@@ -16,6 +16,12 @@ header {
   padding-bottom: 100px;
 }
 
+.header-opacity {
+  display: inline-block;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+  padding: 20px;
+}
+
 h1 {
   padding-bottom: 60px;
   font-size: 65px;
@@ -26,10 +32,9 @@ h1 {
 h3 {
   font-size: 25px;
   font-weight: 300;
-  font-style: italic;
 }
 
-a {
+.learn-more-button {
   text-decoration: none;
   color: white;
   display: inline-block;
@@ -47,4 +52,40 @@ a:hover {
   background-color: rgba(255, 255, 255, 0.4);
   color: black;
   font-weight: 400;
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("namesti-dve.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  font-size: 15px;
+  color: white;
+  padding: 20px 20px;
+}
+
+footer a {
+  color: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 10px;
+}
+
+.github-here {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+  text-decoration: underline;
+  list-style-type: none;
 }
