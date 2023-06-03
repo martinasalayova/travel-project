@@ -258,7 +258,7 @@ a:hover {
 
 @media (max-width: 1025px) {
   .gallery.grid-of-three-columns {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
 
   .secondary-display-none {
