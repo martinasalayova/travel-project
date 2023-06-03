@@ -89,12 +89,11 @@ a:hover {
 .get-more-info-button {
   text-decoration: none;
   color: black;
-  display: inline-block;
+
   background-color: rgba(218, 203, 203, 0.4);
   padding: 14px 30px;
   border-radius: 4px;
-  display: flex;
-  justify-content: center;
+
   border: 1px solid rgba(1, 1, 1, 0.6);
   font-weight: 300;
   font-size: 16px;
@@ -125,12 +124,17 @@ a:hover {
 }
 
 .img-responsive {
-  max-width: 100%;
-  display: block;
+  width: 100%;
 }
 
-.places-img {
-  max-height: 250px;
+.grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1 /1;
 }
 
 .light-opacity {
@@ -157,4 +161,10 @@ a:hover {
 
 .card {
   border: 1px solid #5c4f40;
+  padding-bottom: 30px;
+  background-color: #5c4f40;
+}
+
+.text-padding {
+  padding-left: 20px;
 }
