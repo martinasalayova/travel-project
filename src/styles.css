@@ -168,3 +168,108 @@ a:hover {
 .text-padding {
   padding-left: 20px;
 }
+
+@media (max-width: 950px) {
+  header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("namesti.jpg");
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding: 40px;
+    padding-bottom: 50px;
+  }
+  h1 {
+    padding-bottom: 30px;
+    font-size: 50px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  main {
+    padding: 0px 20px 50px;
+  }
+
+  footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+      url("namesti-dve.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    font-size: 15px;
+    color: white;
+    padding: 20px 20px;
+  }
+
+  .learn-more-button {
+    margin-top: 40px;
+
+    font-size: 18px;
+  }
+
+  .get-more-info-button {
+    padding: 14px 30px;
+
+    font-size: 16px;
+  }
+
+  .grid-of-three-unequal-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-of-two-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-of-three-columns {
+    grid-template-columns: 1fr;
+
+    padding: 20px 20px 60px;
+  }
+
+  .heading {
+    font-size: 34px;
+    padding-top: 15px;
+    margin: 5px 0px 5px;
+  }
+
+  .display-none {
+    display: none;
+  }
+
+  .places {
+    margin: 5px 0px 20px;
+  }
+
+  .card {
+    padding-bottom: 25px;
+  }
+
+  .embed {
+    width: 100%;
+    aspect-ratio: 16 /9;
+  }
+}
+
+@media (max-width: 1025px) {
+  .gallery.grid-of-three-columns {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .secondary-display-none {
+    display: none;
+  }
+
+  .heading {
+    padding-top: 5px;
+  }
+
+  main {
+    padding: 30px 50px 30px;
+  }
+}
