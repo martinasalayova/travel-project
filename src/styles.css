@@ -273,3 +273,9 @@ a:hover {
     padding: 30px 50px 30px;
   }
 }
+
+@media (max-width: 1342px) {
+  .heading {
+    margin-top: -27px;
+  }
+}
