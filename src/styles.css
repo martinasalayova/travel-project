@@ -266,16 +266,22 @@ a:hover {
   }
 
   .heading {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   main {
     padding: 30px 50px 30px;
   }
+
+  .container {
+    max-width: fit-content;
+    padding: 15px 15px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1342px) {
   .heading {
-    margin-top: -27px;
+    margin-top: -17px;
   }
 }
