@@ -254,6 +254,12 @@ a:hover {
     width: 100%;
     aspect-ratio: 16 /9;
   }
+
+  .container {
+    max-width: fit-content;
+    padding: 15px 15px;
+    margin: 0 auto;
+  }
 }
 
 @media (max-width: 1025px) {
